@@ -11,28 +11,46 @@
         html{
             font-family: 'Courier New', Courier, monospace
         }
+        .top{
+            background-color: teal;
+            padding: 15px;
+            color: white;
+        }
+        .pe{
+            margin-left: 20px;
+        }
+        .join{
+            text-align: right;
+            text-decoration: none;
+            color: white;
+        }
         .header{
             padding: 1px;
-            background-color:teal;
-            text-align: center;
-            margin-top: 50px;
-            color: white;
+            background-color:white;
+            margin-top: none;
+            color: teal;
             font-size: 20px;
-            text-align: left;
+            width: 100%;
+            height: 170px;
+            text-align: center;
         }
         .bd {
-            margin-left: 900px;
-            margin-top: none;
+            margin-left: 10px;
+            padding-bottom: 10px;
         }
         .button{
-            background-color: none;
-            border: none;
-            color: none;
-            padding: 16px 32px;
+            background-color: white;
+            border: 2px solid teal;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            color: white;
+            padding: 6px 22px;
             text-align: center;
             text-decoration: none;
             display: inline;
-            font-size: 16px;
+            font-size: 12px;
             margin: 4px 2px;
             transition-duration: 0.4;
             cursor: pointer;
@@ -40,50 +58,98 @@
         .button1{
             background-color: teal;
             color: white;
-            border: 2px solid white;
+            border: 2px solid teal;
         }
         .button1:hover{
             background-color: white;
-            color: black;
+            color: teal;
         }
         .button2{
             background-color: teal;
             color: white;
-            border: 2px solid white;
+            border: 2px solid teal;
         }
         .button2:hover{
             background-color: white;
-            color: black;
+            color: teal;
         }
         .button3{
             background-color: teal;
             color: white;
-            border: 2px solid white;
+            border: 2px solid teal;
         }
         .button3:hover{
             background-color: white;
-            color: black;
+            color: teal;
         }
         .button4{
             background-color: teal;
             color: white;
-            border: 2px solid white;
+            border: 2px solid teal;
         }
         .button4:hover{
             background-color: white;
-            color: black;
+            color: teal;
         }
+        .mb{
+            background-color:  rgb(0, 183, 207);
+            text-align: center;
+            padding: 217px;
+        }
+        .mbutton{
+            background-color: rgb(0, 183, 207);
+            border: 2px solid white;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            color: white;
+            padding: 12px 28px;
+            text-align: center;
+            display: inline;
+            font-size: 18px;
+            margin: 4px 2px;
+            transition-duration: 0.4;
+            cursor: pointer;
+
+        }
+        .mbutton:hover{
+            background-color: white;
+            color:  rgb(0, 183, 207);
+        }
+        .h2{
+            color: white;
+            text-align: center;
+            font-size: 40px;
+        }
+        .ph2{
+            color: white;
+            margin-bottom: 55px
         }
     </style>
 </head>
 <body>
+    <div class="top">
+        <p class="pe">Phone: +98936363636  Email: abcdef@gmail.com</p>
+        <a class="join" href=""><p>JOIN US NOW</p></a>
+    </div>
     <div class="header">
-        <h1>My website</h1>
-       <div class="bd">
-            <button class="button button1">Home</button>
-            <button class="button button2">About us</button>
-            <button class="button button3">Contact</button>
-            <button class="button button4">RSS</button>
+        <div class="h1"><h1>My website</h1></div>
+            <div class="bd">
+                <button class="button button1">Home</button>
+                <button class="button button2">About us</button>
+                <button class="button button3">Contact</button>
+                <button class="button button4">RSS</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="mb">
+            <h2 class="h2">BEST PROJECTS</h2>
+            <p class="ph2">This is my best project in HTML</p>
+            <button class="mbutton button5">Project#1</button>
+            <button class="mbutton button6">Project#2</button>
+        </div>
         </div>
     </div>
 </body>
